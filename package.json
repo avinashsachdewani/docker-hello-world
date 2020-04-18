@@ -1,0 +1,21 @@
+{
+  "name": "docker-hello-world",
+  "version": "1.0.0",
+  "description": "Docker hello world sample app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -L index.js",
+    "dev-pm2": "pm2-runtime ecosystem.config.js -i max"
+  },
+  "keywords": [
+    "nodejs",
+    "docker"
+  ],
+  "author": "Avinash",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1"
+  }
+}
